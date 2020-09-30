@@ -11,6 +11,6 @@ public class Dog {
         humanage = age*7;
     }
     public String ToString(){
-        return("Кличка собаки: " + name + ";\nВозраст собаки: "+ age+ ";\nВозраст в чел годах: "+humanage+";");
+        return("Кличка собаки: " + name + ";\nВозраст собаки: "+ age+ ";\nВозраст в чел годах: "+humanage+";\n");
     }
 }
