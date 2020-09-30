@@ -4,6 +4,9 @@ public class Main {
         Shape thing1 = new Shape();
         thing1.MakeShape("circ",100);
         thing1.CoutTheInfo();
-        System.out.println("Работа класса Dog");
+        System.out.println("\nРабота класса Dog");
+        Dog d1 = new Dog(7,"TYTY");
+        d1.ConvertAge();
+        System.out.println(d1.ToString());
     }
 }
